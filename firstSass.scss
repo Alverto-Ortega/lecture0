@@ -1,5 +1,6 @@
 $color:rgb(68, 0, 255);
 $font-weight:bold;
+$text-align:center;
 %firstInheritance {
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 30px;
@@ -15,7 +16,7 @@ table th, tr {padding-right:10px;}
 h1 , h2, h3{text-align: center; font-weight: $font-weight;}
 h2{padding: 20px;}
 
-#Faves {text-align: center;  }
+#Faves {text-align: center; margin-top:5%; }
 ul {padding-left: 37%;  } 
 
 div{
@@ -27,6 +28,7 @@ div{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
+.title{margin:auto; display: table; font-weight: $font-weight;}
 .designer{
     @extend %firstInheritance;
     padding-bottom: 1%;
