@@ -13,9 +13,7 @@
         <!--edx min requirements: -->
         <!-- THe following are to link to at least 4 different .html pages, other pages should link back as well -->
         <!-- <a href="path/to/hello.html"> Click here</a> -->
-        <!-- At least one Bootstrap component, and at least 2 bootstrap column for layou purposes using bootstraps grid model.
-            At least one SCSS variable on stylesheet(s), at least one example of SCCS nesting and at least one use of SCSSS inheritance.
-            
+        <!--          
             In GitHub, in readme.md include a short writeup describing your project, whats contained in each file and optionally
                 any other addidional information the staff should know about your project.
 
@@ -25,11 +23,13 @@
 
         <style>
         
-            .container-fluid{background-color:crimson}            
+            .container-fluid{background-color:crimson; padding-bottom: 5%;}            
             table{background-color:darkgrey; 
                 border:3px solid black;
             }
-            .container,.col {border:6px solid blue;}
+            .container{margin-bottom: 5%;}
+            .container,.col {border:2px solid black;}
+        
         </style>  
 
     </head>
@@ -63,7 +63,7 @@
         
         <div id = "Faves">These are some of my favorite programming languages so far: </div>
         <ul>
-            <li>Java</li>         
+            <li>Java</li> The following link will show another of my webpage with Java implementations.: <a href="java.html"> Click here</a>   
             <li>Python</li>
             <li>Javascript</li>
             <li>MatLab</li>  
@@ -82,7 +82,9 @@
             </div>
         </div>
 
-    
-    
+        <div class = "designer">
+            <span >Page designed by: Alverto Ortega-Garcia</span>
+        </div>
+
     </body>
 </html>
