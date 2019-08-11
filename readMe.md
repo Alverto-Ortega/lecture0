@@ -5,6 +5,9 @@
 
 
 **In the java.html page, there will be Java language code implementations within the webpage featuring all sorts of my current increasing skills**
+
 **In the Python.html page, there will be Python language code implementations within the webpage featuring all sorts of my current increasing skills**
+
 **In the jS.html page, there will be javaScript language code implementations within the webpage featuring all sorts of my current increasing skills**
+
 **In the sql.html page, there will SQL database language code implementations within the webpage featuring all sorts of my current increasing skills**
