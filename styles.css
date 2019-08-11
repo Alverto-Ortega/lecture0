@@ -1,8 +1,44 @@
-body{color:rgb(144, 146, 45)} 
+.designer {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px; }
 
-table{margin:auto;}
-table th, tr {padding-right:10px;}
+body {
+  color: #4400ff; }
 
-#owl {display:block; margin-left:auto; margin-right:auto; width:50%;}
+table {
+  margin: auto; }
+
+table th, tr {
+  padding-right: 10px; }
+
+#owl {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; }
+
+h1, h2, h3 {
+  text-align: center;
+  font-weight: bold; }
+
+h2 {
+  padding: 20px; }
+
+#Faves {
+  text-align: center; }
+
+ul {
+  padding-left: 37%; }
+
+div {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  div h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  div h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.designer {
+  padding-bottom: 1%;
+  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
