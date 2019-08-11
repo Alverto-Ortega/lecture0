@@ -1,0 +1,35 @@
+$color:rgb(68, 0, 255);
+$font-weight:bold;
+%firstInheritance {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+}
+
+body{color:$color; } 
+
+table{margin:auto;}
+table th, tr {padding-right:10px;}
+
+#owl {display:block; margin-left:auto; margin-right:auto; width:50%;}
+
+h1 , h2, h3{text-align: center; font-weight: $font-weight;}
+h2{padding: 20px;}
+
+#Faves {text-align: center;  }
+ul {padding-left: 37%;  } 
+
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+.designer{
+    @extend %firstInheritance;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
