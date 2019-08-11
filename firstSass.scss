@@ -6,28 +6,28 @@ $text-align:center;
     font-size: 30px;
 }
 
-body{color:$color; } 
+body{color:black;background-color:black; } 
 
 table{margin:auto;}
 table th, tr {padding-right:10px;}
 
-#owl {display:block; margin-left:auto; margin-right:auto; width:50%;}
+#owl {display:block; margin-left:auto; margin-right:auto; width:30%; height:25%; margin-top: 5%; margin-bottom: 1%;}
 
-h1 , h2, h3{text-align: center; font-weight: $font-weight;}
-h2{padding: 20px;}
-
-#Faves {text-align: center; margin-top:5%; }
-ul {padding-left: 37%;  } 
-
+h1 , h6{text-align: center; color: #000;}
 div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     h1{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    h2{
+    h6{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
+
+#Faves {text-align: center; margin-top:5%; }
+ul {padding-left: 37%;  } 
+
+
 .title{margin:auto; display: table; font-weight: $font-weight;}
 .designer{
     @extend %firstInheritance;

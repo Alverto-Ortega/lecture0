@@ -19,42 +19,67 @@
         -->
         <title>My First Web Page</title>
 
-        <style>
-        
-            .container-fluid{background-color:crimson; padding-bottom: 5%;}            
-            table{background-color:darkgrey; 
-                border:3px solid black;
-            }
-            .container{margin-bottom: 5%; margin-top:10%;}
-            .container,.col {border:2px solid black;}
-            
-        
+        <style>        
+            .container-fluid{background-color:rgba(150, 153, 145, 0.815);margin-top: 1%; padding-bottom: 1%; padding-top: 1%;}            
+            table{background-color:darkgrey; border:3px solid black;}
+            table th, td{padding-right:10px; padding-left: 10px;}
+            #tableInfo{text-align: center; font-size: 15px;}
+            .container{margin-bottom: 5%; margin-top:5%;}
+            .container,.col {border:2px solid black;}       
         </style>  
 
     </head>
     
     <body>
         <div class = "container-fluid">
-        <h1>This is my first personal web page!</h1>
-        <h2> Let's get started on this world-class web page! </h2>
-        <h3>Based on college-education and Self-Education!</h3>
+        <h1>Welcome to my first personal Webpage!</h1>
+        <h6>Based on my College-Education and Self-Education!</h6>
         </div>
-                
-        <img  id= "owl" src="https://socialworkdegreeguide.azureedge.net/wp-content/uploads/2018/04/southern-connecticut-state-university.jpg" height = "20%" width = "30%">
+
+        <div class = "container-fluid">        
+        <img  id= "owl" src="IMG_20180629_103220_632.jpg" >
         <table >
             <tr >
                 <th> My computer-related courses taken at SCSU:</th>            
                 <th>Grades:</th>
             </tr>
-            <tr >s
-                <td >Operating Systems</td>
+            <tr>
+                <td>*<a href= "https://en.wikipedia.org/wiki/Computer"> Computer Systems</a>(Hardware/Binary/Assembly) </td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td><a href= "https://en.wikipedia.org/wiki/Computer_ethics">Computer Ethics</a></td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td><a href= "https://en.wikipedia.org/wiki/Database">Database Systems</a></td>
+                <td>A-</td>
+            </tr>
+            <tr>
+                <td><a href= "https://en.wikipedia.org/wiki/Data_structure">Data Structures</a> (Python) </td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td><a href= "https://en.wikipedia.org/wiki/Microarchitecture">Computer Organizatio</a> (Architecture/CPU/Binary/Assembly) </td>
+                <td>B-</td>
+            </tr>
+            <tr>
+                <td><a href= "https://en.wikipedia.org/wiki/Computer_programming">Programming fundamentals</a> (python language) </td>
+                <td>B-</td>
+            </tr>
+            <tr>
+                <td ><a href= "https://en.wikipedia.org/wiki/Operating_system">Operating Systems</a></td>
                 <td>C+</td>
             </tr>
             <tr>
-                <td >Object-Oriented programming</td>
+                <td> <a href= "https://en.wikipedia.org/wiki/Object-oriented_programming">Object-Oriented programming/GUI</a> (Java) </td>
                 <td>C+</td>
             </tr>
+            <tr>
+                <td>More to be studied soon...</td>
+            </tr>
         </table>
+        <div id ="tableInfo">*Clicking on subjects directs you to another site with it's basic information.</div>
         
         <div id = "Faves">These are some of my favorite programming languages so far: </div>
         <ul>
@@ -80,6 +105,6 @@
         <div class = "designer">
             <span >Page designed by: Alverto Ortega-Garcia</span>
         </div>
-
+        </div>
     </body>
 </html>

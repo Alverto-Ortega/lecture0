@@ -3,7 +3,8 @@
   font-size: 30px; }
 
 body {
-  color: #4400ff; }
+  color: black;
+  background-color: black; }
 
 table {
   margin: auto; }
@@ -15,14 +16,21 @@ table th, tr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; }
+  width: 30%;
+  height: 25%;
+  margin-top: 5%;
+  margin-bottom: 1%; }
 
-h1, h2, h3 {
+h1, h6 {
   text-align: center;
-  font-weight: bold; }
+  color: #000; }
 
-h2 {
-  padding: 20px; }
+div {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  div h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  div h6 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 #Faves {
   text-align: center;
@@ -30,13 +38,6 @@ h2 {
 
 ul {
   padding-left: 37%; }
-
-div {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
-  div h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-  div h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .title {
   margin: auto;
