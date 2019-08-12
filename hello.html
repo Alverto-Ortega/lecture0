@@ -1,6 +1,7 @@
 <!-- Design a personal webpage about yourself, one of your interests, or any other topic of choice.-->
 <!DOCTYPE html>
 <html lang = "en">
+
     <head>
         <!-- required meta tags-->
         <meta charset="utf-8">
@@ -9,18 +10,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <!-- seperate style css sheet -->
         <link rel="stylesheet" href = "styles.css">
-
-        <!--edx min requirements: -->
-        <!--          
-            In GitHub, in readme.md include a short writeup describing your project, whats contained in each file and optionally
-                any other addidional information the staff should know about your project.
-
-            
-        -->
         <title>My First Web Page</title>
 
         <style>        
-            .container-fluid{background-color:rgba(150, 153, 145, 0.815);margin-top: 1%; padding-bottom: 1%; padding-top: 1%;}            
+            .container-fluid{background-color:rgba(150, 153, 145, 0.815); padding-bottom: 1%; padding-top: 1%;margin-bottom: 5px}            
             table{background-color:darkgrey; border:3px solid black;}
             table th, td{padding-right:10px; padding-left: 10px;}
             #tableInfo{text-align: center; font-size: 15px;}
@@ -29,13 +22,11 @@
             #JavaP{
                 margin-left: 10%;
                 text-align:justify;
-            }
-            
+            } 
         </style>  
-
     </head>
     
-    <body>
+    <body>        
         <div class = "container-fluid">
         <h1>Welcome to my first personal Webpage!</h1>
         <h6>Based on my College-Education and Self-Education!</h6>
@@ -100,17 +91,12 @@
                     In this section I will include Projects I have completed
                     with a thumbnail image alogside a link to the projects.
                     <div id ="JavaP">
-                            <a class = "lightbox" href="#jProject">
-                                <img src= "JavaProjectStudentTuitionCost.JPG"/>
-                            </a>
+                            <a class = "lightbox" href="#jProject"><img src= "JavaProjectStudentTuitionCost.JPG"/></a>
                             <div class="lightbox-target" id="jProject">
                                 <img src ="JavaProjectStudentTuitionCost.JPG"/>
                                 <a class= "lightbox-close" href="#"></a>
                             </div>
-                            </div>
-                           
-                           
-
+                    </div>
                 </div>
                 <div class="col">
                     In this section I will include Projects I am working on 
@@ -118,14 +104,11 @@
                 </div>
             </div>              
         </div>
-        
+    </div>
 
-        <div class = "designer">
+    <div class = "designer">
             <span >Page designed by: Alverto Ortega</span>
-        </div>
-        
-
-        
-        </div>
+    </div>
+    
     </body>
 </html>
