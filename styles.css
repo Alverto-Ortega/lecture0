@@ -2,6 +2,8 @@
 body { 
   margin-top: 5px;
   margin-bottom: 5px;
+  background-image: url("cirucuitBoard.jpg");
+ 
   }
 #jsBody{
   background: rgb(255, 0, 0);
@@ -24,12 +26,13 @@ table th, tr {
   padding-right: 10px; }
 /*--------------------------------------------------------------------*/
 /*-------------------------------lists-------------------------------------*/
-ul {
-  padding-left: 37%; }
+
+ul li {color:white;}
 /*-------------------------------h's-------------------------------------*/
 h1, h6 {
   text-align: center;
-  color: #000; }
+  color:white;
+  font-weight: bold; }
 /*----------------------------divs----------------------------------------*/
 div {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
@@ -39,8 +42,10 @@ div {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 /*--------------------------ids------------------------------------------*/
 #Faves {
-  text-align: center;
-  margin-top: 5%; }
+  
+  margin-top: 5%; 
+  color:gainsboro;}
+
 #owl {
   display: block;
   margin-left: auto;
@@ -51,15 +56,24 @@ div {
   margin-bottom: 1%; }s
 /*-----------------------classes---------------------------------------------*/
 .title {
-  margin: auto;
-  display: table;
-  font-weight: bold; }
+  font-weight: bold;
+ 
+  display:table;
+  width:100px;
+  height: 100%;
+  margin: 0 auto;
+  
+  }
+  
 .designer {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 30px;
   text-align: center;
-  background: rgba(150, 153, 145, 0.815); }   
-
+  background:rgba(27, 73, 3, 0.856);
+  color:white;} 
+.altPage{
+  color:white;
+}
 
 /*----------------------------image/effects----------------------------------------*/
 a.lightbox img {
